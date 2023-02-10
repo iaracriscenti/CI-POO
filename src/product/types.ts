@@ -3,6 +3,7 @@ export enum Category {
 }
 
 export interface ProductType {
+    id: number;
     name: string;
     brand: string;
     category: Category;

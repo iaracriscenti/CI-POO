@@ -13,6 +13,10 @@ export abstract class PaymentMethod {
         this._type = type;
     }
 
+    public get type(): AllPaymentMethods {
+        return this._type;
+    }
+
     public get operationType(): OperationType {
         return this._operationType;
     }
